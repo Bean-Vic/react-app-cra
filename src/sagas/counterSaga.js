@@ -1,6 +1,6 @@
 // sagas/counterSaga.js
 import { put, takeEvery, delay } from 'redux-saga/effects';
-import { increment, decrement } from '../reducers/counterSlice';
+import { increment, decrement } from 'src/reducers/counterSlice';
 
 // Worker saga
 export function* handleAsyncIncrement() {

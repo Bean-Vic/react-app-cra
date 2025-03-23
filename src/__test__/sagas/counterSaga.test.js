@@ -1,7 +1,7 @@
 // sagas/counterSaga.test.js
 import { testSaga } from 'redux-saga-test-plan';
-import counterSaga, { handleAsyncIncrement, handleAsyncDecrement } from '../../sagas/counterSaga';
-import { increment, decrement } from '../../reducers/counterSlice';
+import counterSaga, { handleAsyncIncrement, handleAsyncDecrement } from 'src/sagas/counterSaga';
+import { increment, decrement } from 'src/reducers/counterSlice';
 
 describe('counterSaga', () => {
     it('should handle async increment', () => {

@@ -3,7 +3,7 @@ import counterReducer, {
     increment,
     decrement,
     setCounter,
-} from '../../reducers/counterSlice';
+} from 'src/reducers/counterSlice';
 
 describe('counter reducer', () => {
     it('should return the initial state', () => {
