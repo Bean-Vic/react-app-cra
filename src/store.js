@@ -11,6 +11,9 @@ const store = configureStore({
         getDefaultMiddleware({
             thunk: false,
         }).concat(sagaMiddleware),
+    devTools: {
+        name: '憨豆特工 - Johnny English'
+    }
 });
 
 sagaMiddleware.run(rootSaga);
